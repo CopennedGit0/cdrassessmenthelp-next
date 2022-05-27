@@ -1,0 +1,267 @@
+/* Footer.css  */
+
+
+.upperFooter {
+    background-color:
+    #AE081C;
+    padding: 40px;
+    color:  #fff;
+    ;
+  }
+  .footerServices {
+    text-decoration: none;
+    color: #fff;
+  }
+  .footerServices:hover {
+    color: #203546;
+  }
+  .lowerFooter {
+    background-color:#970012
+    ;
+    font-family: "Barlow";
+    padding: 20px 0 10px 50px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .footerServices{
+    color:white!important;
+    text-decoration:none !important
+  }
+  @media screen and (max-width: 600px) {
+    .footerServices {
+      font-size: 10px;
+    }
+    .footerAboutUs {
+      font-size: 10px;
+    }
+    .lowerFooter {
+      font-size: 10px;
+    }
+    .footerTitle {
+      font-size: 10px;
+    }
+    .upperFooter {
+      font-size: 10px;
+    }
+  }
+
+  
+
+  /* Header.css */
+
+  .header {
+    top: 0;
+    z-index: 11;
+  }
+  .headernavbar {
+    width: 100%;
+    height: 95px;
+    background:#fff !important;
+    font-family: Asap;
+    
+    
+  }
+  .headerDropdownRows{
+    color: #970012;
+    font-size:13px
+  }
+  .headerDropdownList{
+    display:flex;
+    flex-direction: column;
+  }
+  .headerDropdownLink{
+    text-decoration: none;
+    color: #970012;
+    font-weight: 400;
+  
+  }
+  .headerDropdownLink:hover{
+    color: #970012;
+  
+  }
+  .headerCodes{
+    color: #970012;
+    text-decoration:none
+
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color:  #970012  !important;
+  }
+  
+  .dropdown-menu {
+    font-size: 0.75rem;
+  }
+  .dropdown-divider {
+    margin: 0.25rem 0;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #970012;
+  }
+  .PhoneInputCountry {
+    padding: 2px;
+  }
+  .PhoneInputInput {
+    height: 35px !important;
+    border: none;
+    outline: none;
+    background-color: #F4F4F4 !important;
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+  .PhoneInputCountryIconImg{
+    height:50px;
+    width:50px;
+  }
+  .dropdown-item{
+    color: rgb(151, 0, 18); margin: 0px 1em;
+  }
+  .subheader{
+    display:none;
+  }
+  .cdrnavigation:hover .subheader{
+    display:block;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+
+    .navbar-brand {
+      margin-left: -50px !important;
+      width: "100px";
+      height: "40px";
+    }
+    .navbar-toggler{
+      border:2px solid black !important
+    }
+    .headerAnzsco{
+      width:400px !important;
+      height: 400px !important;
+      margin-left: -80px !important;
+      font-size: 10px !important;
+  
+    }
+    .headerDropdownRows{
+      font-size: 12px !important;
+    }
+    .headerDropdownLink{
+      font-size: 8px !important;
+  
+    }
+    .headerDropdownList{
+      font-size: 8px !important;
+  
+    }
+    .nav-item {
+      background: #fff !important;
+    }
+    .navbar-nav{
+      background: #fff !important;
+  
+    }
+    .navbar-brand > img {
+      width: "100%";
+      height: "100%";
+      object-fit: contain;
+    }
+    .header {
+      height: 40px;
+    }
+    .headerImageContainer {
+      width: 200px;
+      /* height: 100px; */
+    }
+    .navbar-nav {
+      background: #fff;
+      
+    }
+    .headerImageContainer > img {
+      object-fit: contain !important;
+    }
+    .navbar-toggler {
+      padding: 0.1rem 0.3rem !important;
+      font-size: small;
+      margin-right: -30px;
+    }
+  }
+  
+
+  /* mr.css */
+
+  
+
+.mobile-screen{
+    display:none;
+}
+.desktop-screen{
+    display:block;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .landinImageInMobileScreen{
+    height: 200px !important;
+    width: 200px !important; 
+  }
+    .advice{
+        margin-top:140px !important ;
+        margin-bottom: -60px !important;
+    }
+    .first{
+        text-align: center;
+    }
+    
+    .mobile-screen{
+        display:block;
+    }
+    .desktop-screen{
+        display:none;
+    }
+    
+}
+
+/* Not Found */
+
+.mobileScreen{
+  display:none !important
+}
+@media screen and (max-width: 600px) {
+  .mobileScreen{
+    display:block !important
+  }
+.desktopScreen{
+  display: none !important;
+}
+  .a404{
+      font-size: 30px !important;
+      margin-top: 30px ;
+  }
+  .sorry{
+      font-size: 15px !important;
+  }
+  
+  .link{
+      font-size: 10px !important;
+  }
+  .plagiarismVectorImage{
+    height: 70px !important;
+    width:80px !important
+  }
+  .contactImage{
+    height:450px !important
+
+  }
+  .testimonialImages{
+    height:60px !important;
+    width:60px !important
+  }
+  .mobileText{
+    font-size: 10px !important;
+  }
+  .ordernowImage{
+    margin-right: 0 !important;
+  }
+}
