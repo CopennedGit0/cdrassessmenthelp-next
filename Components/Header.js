@@ -29,7 +29,7 @@ const Header = ({ scrollToTop }) => {
     setAnzscoShow(false);
   };
   useEffect(() => { 
-    scrollToTop();
+    scrollToTop(); 
   }, []);
 
   return (
@@ -38,7 +38,7 @@ const Header = ({ scrollToTop }) => {
         <Container>
           <Navbar.Brand href="/" style={{ marginLeft: "-80px" }}>
             <div className="headerImageContainer">
-              <img src="/logo.png" className="img-fluid" alt="logo" />
+              <img src="/logo.png" className="img-fluid" alt="logo" style={{height:'150px'}} />
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

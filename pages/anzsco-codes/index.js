@@ -3,6 +3,7 @@ import { Col, Container, Row ,Button, Form } from 'react-bootstrap'
 import Headings from '../../Components/Headings'
 import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
+import Link from 'next/link'
 import Head from 'next/head'
 const ANZSCOcode = () => {
   const router = useRouter();
@@ -82,7 +83,7 @@ bigger categories based on their similarities.
 </div>
 
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:"center"}} className='pt-4'>ANZSCO Occupation List</h3>
-<p style={{color:"#666",textAlign:"center"}}>Search form the list of ANZSCO skilled occupation 
+<p style={{color:"#666",textAlign:"center"}}>Search from the list of ANZSCO skilled occupation 
 names for popular Engineering professions in Australia..</p>
 <Row>
 <div>
@@ -122,45 +123,45 @@ names for popular Engineering professions in Australia..</p>
 <Row  style={{display:'flex',justifyContent:'space-around',flexWrap:"wrap"}}>
    
    
-     <img src="images/anzsco/1.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/2.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/3.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/4.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/4.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/6.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/7.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/8.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/9.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/10.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/11.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/12.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/13.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/14.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/15.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/16.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/17.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/18.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/19.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/20.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/21.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/22.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/23.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/24.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/25.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/26.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-     <img src="images/anzsco/27.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"250px",width:"350px"}}/> 
-   
+{/* <Link href ="/anzsco-code/anzsco-133211-engineering-manager" style={{height:"300px",width:"400px"}} > <img src="images/anzsco/1.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link> */}
+  {/* <Link href="/anzsco-code/anzsco-233111-chemical-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/2.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link> */}
+  {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}>   <img src="images/anzsco/3.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link> */}
+  {/* <Link href="/anzsco-codes/anzsco-233211-civil-engineer" style={{height:"300px",width:"400px"}}><img src="images/anzsco/4.png" alt="anzsco codes" className='img-fluid mb-4' /></Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233212-geo-technical-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/5.png" alt="anzsco codes" className='img-fluid mb-4'/> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233214-structural-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/6.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233215-transport-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/7.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233311-electrical-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/8.png" alt="anzsco codes" className='img-fluid mb-4'/> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233411-electronics-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/9.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233511-industrial-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/10.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233512-mechanical-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/11.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233513-production-or-plant-engineer" style={{height:"300px",width:"400px"}}>   <img src="images/anzsco/12.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233612-petroleum-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/13.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233612-petroleum-engineer" style={{height:"300px",width:"400px"}}>    <img src="images/anzsco/14.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-codes/anzsco-233911-aeronautical-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/15.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/16.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/17.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/18.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+  {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/19.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}>  <img src="images/anzsco/20.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/21.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/22.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/23.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/24.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/25.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/26.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
+     {/* <Link href="/anzsco-code/anzsco-233112-materials-engineer" style={{height:"300px",width:"400px"}}> <img src="images/anzsco/27.png" alt="anzsco codes" className='img-fluid mb-4' /> </Link>  */}
 
 </Row>
-<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>Select the ANZSCO code that best fits your engineering qualification for 
-Skilled Migration in Australia.</h3>
-<p style={{color:"#666",textAlign:""}}>ANZSCO code&apos;s structure consists of five hierarchical divisions: major group, sub-major group, minor group, unit group and occupation 
-as per Engineers Australia. At the most precise level of classification, the categories are referred to as &apos;occupations.&apos; These are combined 
-to create &apos;unit groups,&apos; which are further subdivided into &apos;minor groups&apos;. Minor groups are aggregated to form &apos;sub-major groups,&apos; which 
-are then aggregated to form &apos;major groups&apos; at the highest level.
-ANZSCO is a skill-based classification used to classify all occupations and jobs in the Australian and New Zealand labour markets. ANZSCO 
-code defines engineer&apos;s occupations according to their attributes and groups them on the basis of their similarity into successively broader 
-categories for statistical and other types of analysis in Australia.
+<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>ANZSCO Code define work duties for all engineering professions in Australia and 
+New Zealand</h3>
+<p style={{color:"#666",textAlign:""}}>All engineering professions in Australia and New Zealand are defined by the Australian and New Zealand Standard Classification of 
+Engineer&apos;s Occupations (ANZSCO) Codes. When evaluating engineers&apos; migration abilities using CDR, it&apos;s crucial to use the relevant 
+ANZSCO Code. This is a technique for gathering, publishing, and evaluating occupational data.
+Engineers interested in working in
+Australia should check their ANZSCO code before advancing to the CDR skilled exam. You can check your eligibility for the applicable 
+engineering stream by using the ANZSCO code supplied below. When you choose the correct ANZSCO code, the Medium and Long-
+Period Strategic Skill List (MLTSS) and the Short-Term Skilled Occupation List (STSOL) will appear, allowing you to determine which 
+term your occupation falls under according to Engineers Australia.
 </p>
 
   

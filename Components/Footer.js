@@ -25,12 +25,12 @@ const Footer = () => {
           }}
           className="footerAboutUs"
         >
-           {/* <img
-            src="/footerlogo.png"
+           <img
+            src="/logo.png"
             alt="logo"
-            style={{ height: "100px", marginLeft: "-50px", marginTop: "-20px" }}
+            style={{ height: "100px",marginTop: "-20px" }}
             className="img-fluid"
-          /> */}
+          />
           <br/>
          
           <strong style={{ color: "#fff" ,fontWeight:"600",fontSize:"30px"}}>Who we are</strong>
@@ -42,54 +42,7 @@ const Footer = () => {
           <br />
           
           
-          <div
-            className="d-flex justify-content-start"
-            style={{ fontSize: "20px" }}
-          >
-            <a
-              href="https://www.facebook.com/CDR-Xperts-105716718761278"
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <img src="/images/s3.png" alt="" className="img-fluid ms-2" />
-            </a>
-            <a
-              href="https://www.facebook.com/CDR-Xperts-105716718761278"
-              target="_blank"
-              rel="noreferrer"
-              style={{
-                textDecoration: "none",
-                color: "white",
-              }}
-            >
-              <img src="/images/s2.png" alt="" className="img-fluid " />
-            </a>
-            <a
-              href=" https://www.instagram.com/cdrxperts/"
-              target="_blank"
-              rel="noreferrer"
-              style={{
-                textDecoration: "none",
-                color: "white",
-              }}
-            >
-              <img src="/images/s0.png" alt="" className="img-fluid ms-2" />
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer"
-              style={{
-                textDecoration: "none",
-                color: "white",
-                marginleft: "10px",
-              }}
-            >
-              {" "}
-              <img src="/images/s1.png" alt="" className="img-fluid ms-2" />
-            </a>
-          </div>
+         
         </Col>
 
         <Col
@@ -248,7 +201,7 @@ const Footer = () => {
           <br />
           <a 
             style={{ textDecoration: "none", color: "#fff" }}
-            href="https://api.whatsapp.com/send?phone=61481615807"
+            href="https://api.whatsapp.com/send?phone=61482072481"
           >
             <WhatsappOutlinedIcon className='text-white'/>
             &nbsp;&nbsp;&nbsp;+61481615807

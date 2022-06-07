@@ -11,7 +11,7 @@ const Anz5 = ({exceptionsTitle,exceptionsList, languageTitle , languageList , oc
 {exceptionsList.map((e,index)=>
    <Row key={index} className='pb-2'>
    <Col md={1}xs={2} >
-       <img src="/images/vector1.png" alt="vector1" className='img-fluid ms-md-5 ms-4'/>
+       <img src="/vector1.png" alt="vector1" className='img-fluid ms-md-5 ms-4'/>
    </Col>
 
    <Col md={11} xs={10} style={{color:"#666"}}>
@@ -29,7 +29,7 @@ const Anz5 = ({exceptionsTitle,exceptionsList, languageTitle , languageList , oc
 
 <Row key={index} className='pb-2'>
     <Col md={1} xs={2}>
-        <img src="/images/vector1.png" alt="vector1" className='img-fluid ms-md-5 ms-4'/>
+        <img src="/vector1.png" alt="vector1" className='img-fluid ms-md-5 ms-4'/>
     </Col>
 
     <Col md={11} xs={10} style={{color:"#666"}}>
@@ -45,7 +45,7 @@ const Anz5 = ({exceptionsTitle,exceptionsList, languageTitle , languageList , oc
 {occupationsList.map((o,index)=>
     <Row  key={index} className='pb-2'>
     <Col md={1} xs={2}>
-        <img src="/images/vector1.png" alt="vector1" className='img-fluid ms-md-5 ms-4'/>
+        <img src="/vector1.png" alt="vector1" className='img-fluid ms-md-5 ms-4'/>
     </Col>
 
     <Col md={11} xs={10} style={{color:"#666"}}>

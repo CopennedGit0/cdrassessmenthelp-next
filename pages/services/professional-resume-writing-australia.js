@@ -84,7 +84,7 @@ GET INSTANT HELP
 
 <Col md={7}>
   <img src="/images/resume/resume.png" alt="checking and removing plagiarism" className='img-fluid'/>
-</Col>
+</Col> 
 </Row>
 
 

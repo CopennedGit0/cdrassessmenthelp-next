@@ -8,7 +8,7 @@ const Socials = () => {
     <div className="position-fixed socialContainer">
       <div className=" d-flex flex-column">
         <a
-          href="https://www.facebook.com/CDR-For-Engineer-103245902372530/?ref=pages_you_manage"
+          href="https://www.facebook.com/cdrassessmenthelp001"
           target="_blank"
           rel="noreferrer"
           className=" iconContainer"
@@ -23,7 +23,7 @@ const Socials = () => {
                     <EmailOutlinedIcon/>
         </div>
         <a
-          href="https://api.whatsapp.com/send?phone=61482072510"
+          href="https://api.whatsapp.com/send?phone=61482072481"
           target="_black"
           rel="noreferrer"
           className="bg-white mt-3 iconContainer"

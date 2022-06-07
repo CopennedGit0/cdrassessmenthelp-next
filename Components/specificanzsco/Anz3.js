@@ -12,7 +12,7 @@ const Anz3 = ({occupationListTitle, occupationList, visaProvisionTitle2, visaPro
  {occupationList.map((o,index)=>
     <Row key={index} className='ps-md-5 pb-2'>
     <Col md={1} xs={2} >
-        <img src="/images/vector.png" alt="vector arrow" className='img-fluid ms-md-5 ms-4'/>
+        <img src="/vector.png" alt="vector arrow" className='img-fluid ms-md-5 ms-4'/>
     </Col>
     <Col md={11} xs={10}  style={{color:"#666"}}>
     {o}
