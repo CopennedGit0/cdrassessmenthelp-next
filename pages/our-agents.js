@@ -42,7 +42,7 @@ const Meetourexperts = () => {
 <a style={{height:"28px",width:"50px"}} href={d.instalink}><img src="/images/agents/insta.png" alt="instagram" className='img-fluid' style={{height:"28px",width:"50px"}}/></a>
 </Row>
              <Button style={{color:"#970012",backgroundColor:"#DFDFDF" ,marginTop:"15px",border:"none",borderRadius:"5px",marginBottom:"10px"}}>
-                <a href={`https://api.whatsapp.com/send?phone=${d.whatsapp}`} style={{color:"black",textDecoration:'none'}}>
+                <a href={`${d.whatsapp}`} style={{color:"black",textDecoration:'none'}}>
                 <strong><WhatsAppIcon/> {d.buttonText}</strong>
 
                 </a>
