@@ -14,7 +14,6 @@ const First = () => {
   const router = useRouter();
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
   const submitFormhandler = (e) => {
@@ -22,17 +21,16 @@ const First = () => {
 
     emailjs
       .sendForm(
-        "service_by37xbi",
-        "template_2xypi1o",
+        "service_38v8g6i",
+        "template_3dg34bp",
         form.current,
-        "user_jMQ6BMrWWCP1zIKhDe4ND"
+        "qMMUv1Y35wlh8JYno"
       )
       .then(
         (result) => {
           alert("Email sent.");
           setFullName("");
           setEmail("");
-          setPhone("");
           setMessage("");
         },
         (error) => {
@@ -228,10 +226,18 @@ for skill Assessment. </h6>
    <Form
               ref={form}
               onSubmit={submitFormhandler}
-              className="bg-white py-3 px-3 formContainer "
+              className="bg-white py-3 px-3 formContainer"
               style={{background:"linear-gradient(180deg, #970012 0%, #AE081C 100%)"}}
             >
-              
+               <Form.Group className="mb-3" controlId="blogs" style={{display:"none"}}>
+              <Form.Control
+                placeholder="Site Name"
+                value="Blogs"
+                readOnly
+                className="inputField"
+                name="subject"
+              />
+            </Form.Group>
                 <h5 style={{color:"#fff", fontWeight:"600" }} className="ms-4">Request a Blog</h5>
                 
               <div className='d-flex flex-column justify-content align-items-center '>

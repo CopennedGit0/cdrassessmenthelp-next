@@ -188,7 +188,7 @@ const Footer = () => {
           <br />
           <strong style={{ color: "#fff" ,fontWeight:"600",fontSize:"20px"}}>Contact US</strong><br/>
           <LocationOnIcon className='text-white'/>
-          &nbsp;&nbsp;&nbsp;&nbsp;Melbourne, Australia
+          &nbsp;&nbsp;&nbsp;&nbsp;Canberra, Australia
           <br />
           <a
             style={{ textDecoration: "none", color: " #fff" }}
@@ -196,7 +196,7 @@ const Footer = () => {
           >
             <EmailOutlinedIcon className='text-white'/>
             &nbsp;&nbsp;
-            sales@cdrexpert.com
+            info@cdrassessmenthelp.com
           </a>
           <br />
           <a 
@@ -204,7 +204,7 @@ const Footer = () => {
             href="https://api.whatsapp.com/send?phone=61482072481"
           >
             <WhatsappOutlinedIcon className='text-white'/>
-            &nbsp;&nbsp;&nbsp;+61481615807
+            &nbsp;&nbsp;&nbsp;+61482072481
           </a>
           <br />
           <br />

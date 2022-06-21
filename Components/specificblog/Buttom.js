@@ -8,25 +8,23 @@ const Buttom = () => {
     const form = useRef();
     const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
     const [message, setMessage] = useState("");
 
     const submitFormhandler = (e) => {
         e.preventDefault();
     
         emailjs
-          .sendForm(
-            "service_by37xbi",
-            "template_2xypi1o",
+        .sendForm(
+            "service_38v8g6i",
+            "template_3dg34bp",
             form.current,
-            "user_jMQ6BMrWWCP1zIKhDe4ND"
+            "qMMUv1Y35wlh8JYno"
           )
           .then(
             (result) => {
               alert("Email sent.");
               setFullName("");
               setEmail("");
-              setPhone("");
               setMessage("");
             },
             (error) => {
@@ -62,7 +60,15 @@ const Buttom = () => {
                                         <h5 style={{ color: "#373737", fontWeight: "700" }}>Add your Comments</h5>
 
                                     </div>
-
+                                    <Form.Group className="mb-3" controlId="fullName" style={{display:"none"}}>
+              <Form.Control
+                placeholder="Site Name"
+                value="Blog"
+                readonly
+                className="inputField"
+                name="subject"
+              />
+            </Form.Group>
                                     <Form.Group className="mb-3" controlId="fullName">
                                         <Form.Control
                                             placeholder="Full Name"

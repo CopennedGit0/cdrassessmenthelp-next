@@ -7,7 +7,8 @@ const Anz1 = ({title,description,image}) => {
   return (
     <div>
          <Row>
-            <Col md={5} className="py-5">
+         <Col md={5} style={{paddingRight:"80px", paddingLeft:"px"}} className="py-5 ">
+
                 <Headings title={title} align="potato"/>
 <Paragraphs
  data={description} align="potato"/>

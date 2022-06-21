@@ -8,7 +8,7 @@ const Anz3 = ({occupationListTitle, occupationList, visaProvisionTitle2, visaPro
        
 <div>
 
-<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-3'>{occupationListTitle}</h3>
+<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-1'>{occupationListTitle}</h3>
  {occupationList.map((o,index)=>
     <Row key={index} className='ps-md-5 pb-2'>
     <Col md={1} xs={2} >

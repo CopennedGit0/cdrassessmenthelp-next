@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import {Button, Col, Container, Row } from 'react-bootstrap'
 import Headings from '../Components/Headings'
 import Paragraphs from '../Components/Paragraphs'
 import {useRouter} from 'next/router'
@@ -79,6 +79,15 @@ James Cruff
           )} 
          
         </Row>
+        <div className='d-flex justify-content-center'>
+
+<Button style={{background:"#970012",border:"none"}} className=""
+onClick={()=>router.push("/alltestimonials")}>
+
+    View More Reviews
+</Button>
+
+</div>  
       </Container>
 
       <img src="/images/testimonials/men.png" alt="Customer Testimonials" className='img-fluid' />

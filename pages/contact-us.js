@@ -24,11 +24,11 @@ const Contactus = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_by37xbi",
-        "template_2xypi1o",
-        form.current,
-        "user_jMQ6BMrWWCP1zIKhDe4ND"
+    .sendForm(
+      "service_38v8g6i",
+      "template_3dg34bp",
+      form.current,
+      "qMMUv1Y35wlh8JYno"
       )
       .then(
         (result) => {
@@ -70,6 +70,15 @@ const Contactus = () => {
                 <h2>Get in touch</h2>
                 <Paragraphs data="Fill the form and our team wil get back to you in 24 Hours"/>
               </div>
+              <Form.Group className="mb-3" controlId="fullName" style={{display:"none"}}>
+              <Form.Control
+                placeholder="Site Name"
+                value="Contact Us"
+                readOnly
+                className="inputField"
+                name="subject"
+              />
+            </Form.Group>
 
               <Form.Group className="mb-md-3 mb-1" controlId="fullName">
                 <Form.Control

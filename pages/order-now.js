@@ -11,6 +11,8 @@ const Ordernow = () => {
   const [activeForm,setActiveForm]=useState("first")
   const form = useRef();
   const router = useRouter();
+  const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+
   const [fullName,setFullName]=useState("");
   const [phone,setPhone]=useState("");
   const [country,setCountry]=useState("");
@@ -25,11 +27,11 @@ const Ordernow = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_by37xbi",
-        "template_2xypi1o",
-        form.current,
-        "user_jMQ6BMrWWCP1zIKhDe4ND"
+    .sendForm(
+      "service_38v8g6i",
+      "template_3dg34bp",
+      form.current,
+      "qMMUv1Y35wlh8JYno"
       )
       .then(
         (result) => {
@@ -47,6 +49,12 @@ const Ordernow = () => {
   return (
     <div>
      <Container>
+     <Head>
+        <title >Order Now | CDR Assessment Help</title>
+        <meta name="description" content="Order Now | CDR Assessment Help" />
+        <link rel="canonical" href={canonicalUrl} />
+
+      </Head>
         <Row>
           <Col md={6} className="p-md-5">
             <img src="/order.png" alt="Order now" className='img-fluid ordernowImage' style={{height:"500px",width:"550px",float:"right",marginRight:"-100px"}}/>
@@ -65,7 +73,15 @@ const Ordernow = () => {
               onSubmit={submitFormhandler}
               className="bg-white py-4 ps-md-5 ms-md-5 formContainer"
             >
-            
+             <Form.Group className="mb-3" controlId="fullName" style={{display:"none"}}>
+              <Form.Control
+                placeholder="Site Name"
+                value="CDR Assessment Help"
+                readonly
+                className="inputField"
+                name="subject"
+              />
+            </Form.Group>
               <Form.Group className="mb-3" controlId="engineeringDiscipline">
                 <FormLabel style={{color:"000"}}>
                   Engineering Discipline 
@@ -167,6 +183,15 @@ const Ordernow = () => {
               onSubmit={submitFormhandler}
               className="bg-white py-4 ps-md-5 ms-md-5 formContainer"
             >
+               <Form.Group className="mb-3" controlId="site name" style={{display:"none"}}>
+              <Form.Control
+                placeholder="Site Name"
+                value="Order Now"
+                readOnly
+                className="inputField"
+                name="subject"
+              />
+            </Form.Group>
              
               <Form.Group className="mb-3" controlId="fullName">
               <FormLabel>Full Name</FormLabel>
