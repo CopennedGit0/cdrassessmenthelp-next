@@ -126,94 +126,94 @@ names for popular Engineering professions in Australia..</p>
    
    
 <Link href ="/anzsco-codes/anzsco-133211-engineering-manager"  > 
-<img src="images/anzsco/1.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}}  /> 
+<img src="images/anzsco/1.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}}  /> 
 </Link> 
   <Link href="/anzsco-codes/anzsco-233111-chemical-engineer" > 
-   <img src="images/anzsco/2.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+   <img src="images/anzsco/2.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
    </Link>
   { <Link href="/anzsco-codes/anzsco-233112-materials-engineer" >   
-  <img src="images/anzsco/3.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+  <img src="images/anzsco/3.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
   </Link> }
   { <Link href="/anzsco-codes/civilengineering-professionals" >
-    <img src="images/anzsco/4.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+    <img src="images/anzsco/4.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
   </Link>  }
   { <Link href="/anzsco-codes/anzsco-233212-geo-technical-engineer" > 
-  <img src="images/anzsco/5.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}}/>
+  <img src="images/anzsco/5.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}}/>
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233214-structural-engineer" > 
-  <img src="images/anzsco/6.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+  <img src="images/anzsco/6.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233215-transport-engineer" > 
-  <img src="images/anzsco/7.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+  <img src="images/anzsco/7.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
   </Link>  }
   { <Link href="/anzsco-codes/anzsco-233311-electrical-engineer" >  
-  <img src="images/anzsco/8.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}}/>
+  <img src="images/anzsco/8.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}}/>
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233411-electronics-engineer" > 
-  <img src="images/anzsco/9.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+  <img src="images/anzsco/9.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
   </Link>  }
   { <Link href="/anzsco-codes/anzsco-233511-industrial-engineer" >  
-  <img src="images/anzsco/10.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+  <img src="images/anzsco/10.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
   </Link>  }
   { <Link href="/anzsco-codes/anzsco-233512-mechanical-engineer" > 
-   <img src="images/anzsco/11.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+   <img src="images/anzsco/11.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233513-production-or-plant-engineer" > 
-    <img src="images/anzsco/12.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+    <img src="images/anzsco/12.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
     </Link>  }
   { <Link href="/anzsco-codes/anzsco-233611-mining-engineer" > 
-   <img src="images/anzsco/13.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+   <img src="images/anzsco/13.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
    </Link>  }
    { <Link href="/anzsco-codes/anzsco-233916-naval-architect" >  
-    <img src="images/anzsco/naval.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+    <img src="images/anzsco/naval.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
     </Link>  }
   { <Link href="/anzsco-codes/anzsco-233911-aeronautical-engineer" >  
-  <img src="images/anzsco/15.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+  <img src="images/anzsco/15.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233912-agricultural-engineer" >  
-  <img src="images/anzsco/16.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+  <img src="images/anzsco/16.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233913-biomedical-engineer" > 
-   <img src="images/anzsco/17.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+   <img src="images/anzsco/17.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
    </Link>  }
   { <Link href="/anzsco-codes/anzsco-233914-engineering-technologist" > 
-   <img src="images/anzsco/18.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+   <img src="images/anzsco/18.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
     </Link>  }
   { <Link href="/anzsco-codes/anzsco-233915-environmental-engineer" > 
-   <img src="images/anzsco/19.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+   <img src="images/anzsco/19.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
     </Link>  }
      { <Link href="/anzsco-codes/anzsco-233999-engineering-professionals-nec" > 
-      <img src="images/anzsco/20.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+      <img src="images/anzsco/20.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
       </Link>  }
      { <Link href="/anzsco-codes/anzsco-263111-computer-networks-and-system-engineers" > 
-     <img src="images/anzsco/21.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/21.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link>  }
      { <Link href="/anzsco-codes/anzsco-263311-telecommunication-engineers" > 
-     <img src="images/anzsco/22.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+     <img src="images/anzsco/22.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
       </Link>  }
      { <Link href="/anzsco-codes/anzsco-313213-telecommunications-network-planner" >
-     <img src="images/anzsco/telnetplan.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+     <img src="images/anzsco/telnetplan.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} />
          </Link>  }
      { <Link href="/anzsco-codes/anzsco-312211-civil-engineering-draftsperson" > 
-     <img src="images/anzsco/24.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/24.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link>  }
      { <Link href="/anzsco-codes/anzsco-312212-civil-engineering-technician" > 
-     <img src="images/anzsco/25.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/25.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link>  }
      { <Link href="/anzsco-codes/anzsco-312312-electrical-engineering-technician" > 
-     <img src="images/anzsco/26.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/26.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link>  }
      { <Link href="/anzsco-codes/anzsco-312311-electrical-engineering-draftsperson" > 
-     <img src="images/anzsco/27.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/27.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link> }
      <Link href="/anzsco-codes/anzsco-313212-telecommunication-field-engineer" > 
-     <img src="images/anzsco/telfe.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/telfe.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link> 
      <Link href="/anzsco-codes/anzsco-313213-telecommunications-technologists" > 
-     <img src="images/anzsco/tt.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/tt.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link> 
      <Link href="/anzsco-codes/anzsco-313212-telecommunication-network-engineer" > 
-     <img src="images/anzsco/23.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     <img src="images/anzsco/23.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"350px"}} /> 
      </Link> 
 </Row>
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>ANZSCO Code define work duties for all engineering professions in Australia and 
