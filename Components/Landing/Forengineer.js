@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Row,Button } from 'react-bootstrap'
 import Headings from '../Headings'
 import Paragraphs from '../Paragraphs'
+import Chatra from '@chatra/chatra'
 
 const Forengineer = () => {
   return (
@@ -19,11 +20,12 @@ demonstrate their engineering skills and knowledge
 through CDR for positive assessment from EA." align="potato"/>
             
 
-<Button style={{backgroundColor:"#970012",marginRight:'20px',fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
+  <Button href='/contact-us' style={{backgroundColor:"#970012",marginRight:'20px',fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
 </Button>
 
-<Button style={{backgroundColor:"#fff",fontWeight:"600",color:"#970012",borderRadius:"4px",border:"1px solid #970012"}}>
+<Button                   onClick={() => Chatra("openChat", true)}
+ style={{backgroundColor:"#fff",fontWeight:"600",color:"#970012",borderRadius:"4px",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 </Col>

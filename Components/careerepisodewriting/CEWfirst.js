@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container ,Button, Row} from 'react-bootstrap'
 import Headings from '../Headings'
 import Paragraphs from '../Paragraphs'
+import Chatra from "@chatra/chatra";
 
 const CEWfirst = () => {
   return (
@@ -17,10 +18,10 @@ episodes for skill assessment. The career episode describes engineering
 experiences the engineer has developed and demonstrated in Stage 1 
 Competency. We provide the best Career episode report writing services 
 for engineers in Australia.' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p style={{color:"#434343",fontWeight:"400",textAlign:'center'}}>Trusted by thousand of Engineers from around the world</p>
@@ -53,8 +54,9 @@ Engineers Australia will reject your CDR report immediately.
       <p style={{color:"#666",textAlign:"center"}} className='px-3 pb-2 ms-0'>Professional services are offered at the most reasonable prices through several applicable packages. Our writers will make certain that 
 the findings are refined, proofread, and free of plagiarism. 
 </p>
-<div className='d-flex justify-content-center justify-content-md-start'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-md-5 ">
+<div className='d-flex justify-content-center justify-content-md-center'>
+<Button href="/pricing" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-md-5 ">
+
     Check Our Pricing
     </Button> 
 
@@ -154,9 +156,9 @@ Writing. The preferred format is as follows:</p>
       <p style={{color:"#666",textAlign:"center"}} className='px-3 pb-2 ms-0'>Craft your career episodes with us for a powerful CDR. Get your academic skills and knowledge onto another level for your migration skill 
 assessment as per Engineers Australia guidelines.
 </p>
-<div className='d-flex justify-content-center justify-content-md-start'>
+<div className='d-flex justify-content-center justify-content-md-center'>
 
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/contact-us" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
 Get Free Consultation
 </Button>
 </div>

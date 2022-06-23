@@ -4,6 +4,7 @@ import Headings from '../../Components/Headings'
 import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
+import Chatra from "@chatra/chatra";
 
 const ResumeWriting = () => {
   const router = useRouter()
@@ -72,10 +73,10 @@ a click away.
       " align="potato"/>
             
 
-<Button style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
+            <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
 </Button>
-<Button style={{backgroundColor:"#fff",marginLeft:"10px",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",marginLeft:"10px",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
@@ -170,7 +171,7 @@ experience to Engineers Australia. We have dedicated engineering teams with year
 in Australia.
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-md-5 ">
+<Button href='/pricing' style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-md-5 ">
     Check Our Pricing
     </Button> 
 </div>
@@ -202,7 +203,7 @@ happy with our services; please stay connected with us for CDR Resume writing he
 free to contact our experts.
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href='./our-agents' style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
     Contact an Expert
     </Button> 
 </div>

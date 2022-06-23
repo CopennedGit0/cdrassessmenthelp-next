@@ -2,6 +2,8 @@ import React from 'react'
 import { Col, Row ,Button } from 'react-bootstrap'
 import Headings from '../Headings'
 import Paragraphs from '../Paragraphs'
+import Chatra from "@chatra/chatra";
+
 
 const Samp1 = ({title,description,image}) => {
   return (
@@ -19,10 +21,10 @@ const Samp1 = ({title,description,image}) => {
  data={description} align="potato"/>
    </div>         
 <div style={{}} className='pt-4'>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}} className="px-4">
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}} className="px-4">
   Contact Us
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}} className='px-3 ms-4'>
+<Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}} className='px-3 ms-4'>
 GET INSTANT HELP
 </Button>
 </div>

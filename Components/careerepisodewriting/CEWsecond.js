@@ -516,8 +516,9 @@ of the entire event and include the following details: </p>
       <p style={{color:"#666",textAlign:"center"}} className='px-3 pb-2 ms-0'>A satisfied customer is the best business strategy of all. We successfully made a decent track record of getting approvals for CDR reports that we have prepared for Engineers Australia.
 Professional writers with years of experience are ready to assist you.
 </p>
-<div className='d-flex justify-content-center justify-content-md-start'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none",}} className="mb-5 ">
+<div className='d-flex justify-content-center justify-content-md-center'>
+<Button href="/contact-us" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none",}} className="mb-5 ">
+
 Claim Free Consultation
 </Button>
 </div>

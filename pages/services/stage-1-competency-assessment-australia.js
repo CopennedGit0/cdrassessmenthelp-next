@@ -4,6 +4,8 @@ import Headings from '../../Components/Headings'
 import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
+import Chatra from "@chatra/chatra";
+
 
 const Stage1CompetencyAssessment = () => {
   const router = useRouter()
@@ -29,10 +31,10 @@ of the Stage 1 Competency Assessment. Professional writers with
 years of experience in developing flawless Stage 1 Competency 
 Assessment at CDR assessment help assist engineers to be eligible for a 
 member of Engineers Australia' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"500"}}>Trusted by thousand of Engineers from around the world</p>
@@ -82,7 +84,7 @@ knowledge and experience to be a member of Engineers Australia. Competency Demon
 for anyone looking to start a profession in Australia, as it presents your skills in writing
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-4 ">
+<Button href="/pricing" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-4 ">
 Check Our Pricing
 </Button>
 </div>
@@ -126,7 +128,7 @@ knowledge and experience to be a member of Engineers Australia. Competency Demon
 for anyone looking to start a profession in Australia, as it presents your skills in writing
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-4 ">
+<Button href='/cdr-samples' style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-4 ">
 Get Free Samples
 </Button>
 </div>

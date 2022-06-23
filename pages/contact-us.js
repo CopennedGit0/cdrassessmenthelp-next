@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import React,{useRef,useState} from 'react'
 import emailjs from "@emailjs/browser"
 import  Head  from 'next/head';
+import PhoneInput from 'react-phone-number-input';
 
 
 
@@ -48,7 +49,7 @@ const Contactus = () => {
   return (
     <div>
       <Head>
-      <title>Contact Us | CDR For Engineer</title>
+      <title>Contact Us | CDR Assessment Help</title>
       <meta name='description' content='We are available 24 hours 7 days and you can reach to us through different medium like phone email  | CDR For Engineer'/>
       <link rel="canonical" href={canonicalUrl} />
 
@@ -59,7 +60,7 @@ const Contactus = () => {
         <Paragraphs data="Any questions or remarks? Just write us a Message"/>
 
         <Row>
-        <Col md={6} className="px-md-5 py-md-5" style={{background:"#FFECEC"}}>
+        <Col md={6} className="px-md-5 py-md-4" style={{background:"#FFECEC"}}>
           <Form
               ref={form}
               onSubmit={submitFormhandler}
@@ -101,8 +102,7 @@ const Contactus = () => {
                 />
               </Form.Group>
 
-              <Row className="mb-md-3 mb-1">
-                {/* <Form.Group controlId="contactNumber">
+                <Form.Group controlId="contactNumber">
                   <PhoneInput
                     className="inputField"
                     placeholder="Enter phone number"
@@ -110,8 +110,7 @@ const Contactus = () => {
                     onChange={setPhone}
                     name="phone"
                   />
-          </Form.Group> */}
-              </Row>
+          </Form.Group>
 
               <Form.Group className="mb-md-3 mb-1" controlId="message">
                 <Form.Control

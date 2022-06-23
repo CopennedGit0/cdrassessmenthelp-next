@@ -117,7 +117,7 @@ for positive assessment from Engineers Australia.
             </div>        
             
           </Col>
-          <div className='d-flex justify-content-center justify-content-md-start'>
+          <div className='d-flex justify-content-center justify-content-md-center'>
 
 <Button style={{backgroundColor:"#970012",color:"#fff"}} className="p-2 my-1" onClick={()=>router.push('/pricing')}>
   Check Pricing

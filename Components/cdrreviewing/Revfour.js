@@ -89,13 +89,13 @@ const Revfour = () => {
             </Row>
 
 
-            <h3 style={{color:"#000",fontWeight:"700"}} className='px-0 pt-5 ms-0'>Choose the best reviewing service provider to review your CDR for EA</h3>
+            <h3 style={{color:"#000",fontWeight:"700",textAlign:"center" }} className='px-0 pt-5 ms-0'>Choose the best reviewing service provider to review your CDR for EA</h3>
       <p style={{color:"#666",textAlign:"center"}} className='px-md-3 pb-2 ms-0'>Engineers who wish to pursue an engineering career in Australia should write a CDR report to demonstrate skills, knowledge and 
 experience to Engineers Australia. We have dedicated engineering teams with years of experience in CDR Reviewing Service for engineers 
 in Australia.
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/pricing" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
     <a href="/pricing" style={{textDecoration:'none',color:'white'}}>
     Check Our Pricing
 

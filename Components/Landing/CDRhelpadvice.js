@@ -17,7 +17,7 @@ in Migration Skills Assessment from EA.
 " align="left"/> </div>
     <div className='d-flex justify-content-center justify-content-md-start'>
 
-<Button style={{backgroundColor:"#970012",color:"#fff"}} className="p-2 my-1">
+    <Button href='/contact-us' style={{backgroundColor:"#970012",color:"#fff"}} className="p-2 my-1">
   Hire Us
 </Button>
 </div>
