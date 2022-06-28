@@ -61,7 +61,7 @@ resume writing service provider in Australia.`,alt:`Make it Professional`}]
       </Head>
       <Container> 
       <Row>
-            <Col md={5} className="py-5">
+      <Col md={5} className="py-5 pe-5">
                 <Headings title="Writing CDR Resume for 
 Engineers Australia" align="potato"/>
 <Paragraphs data="Reduce your chance of getting rejected by Engineers Australia 
@@ -72,6 +72,7 @@ a click away.
 
       " align="potato"/>
             
+            <div className='py-3'>
 
             <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
@@ -79,6 +80,8 @@ a click away.
 <Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",marginLeft:"10px",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
+</div>
+
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
 
 </Col>

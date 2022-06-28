@@ -39,19 +39,23 @@ const CPDWriting = () => {
       </Head>
       <Container>
       <Row>
-<Col md={6} className='px-4  mt-5'>
+      <Col md={6} className='pe-5  mt-5'>
        <Headings title="EA has never rejected CPD 
 reviewed by CDR assessment help" align="left"  />   
 <Paragraphs  data='Reduce your chance of getting rejected from Engineers Australia to 
 0%. Professional writers with years of experience in CPD writing will 
 help you develop excellent CPD. Our team of expert writers are ready 
 to assist you; you are one click away.' align="left"/>
+<div className='py-3'>
+
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
+</div>
+
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
 </Col>
 

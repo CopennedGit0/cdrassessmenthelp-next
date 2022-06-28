@@ -26,9 +26,9 @@ const Footer = () => {
           className="footerAboutUs"
         >
            <img
-            src="/logo.png"
+            src="/newlogo.png"
             alt="logo"
-            style={{ height: "100px",marginTop: "-20px" }}
+            style={{ height: "200px",marginTop: "-20px" }}
             className="img-fluid"
           />
           <br/>

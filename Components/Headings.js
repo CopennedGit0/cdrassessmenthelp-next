@@ -8,7 +8,7 @@ const Headings = ({ title ,align}) => {
         color: "#373737",
         fontFamily: "Barlow",
         fontWeight: "700",
-        fontSize: "30px",
+        fontSize: "32px",
         textAlign:align?"left":"center"
       }}
     >

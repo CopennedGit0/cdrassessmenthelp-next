@@ -24,12 +24,12 @@ const Anz2 = ({specializationsTitle, specializationsList,unitGroupTitle1,unitGro
 
 
 
-<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-3'>{skillAssessmentTitle}</h3>
-<p style={{color:"#666"}}>{skillAssessmentDescription}
+<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-0 pb-3'>{skillAssessmentTitle && skillAssessmentTitle}</h3>
+<p style={{color:"#666"}}>{skillAssessmentDescription && skillAssessmentDescription}
 </p>
 
-<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-md-3'>{visaProvisionTitle}</h3>
-<p style={{color:"#666"}}>{visaProvisionDescription}
+<h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-md-3'>{visaProvisionTitle && visaProvisionTitle}</h3>
+<p style={{color:"#666"}}>{visaProvisionDescription && visaProvisionDescription}
 </p>
 
 

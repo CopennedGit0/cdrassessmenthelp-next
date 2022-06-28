@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Button, Row, Col } from 'react-bootstrap'
 import Headings from '../Headings'
 import Paragraphs from '../Paragraphs'
+import Chatra from '@chatra/chatra'
+
 
 const Revfirst = () => { 
   return (
@@ -19,13 +21,13 @@ knowledge, qualification and experience in writing for the approval
 of Engineers Australia.      " align="potato"/>
             
 
-<Button style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
 </Button>
-<Button style={{backgroundColor:"#fff",marginLeft:'10px',color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)}  style={{backgroundColor:"#fff",marginLeft:'10px',color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
-<p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
+<p className=' text-md-start pt-4' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
 
 </Col>
 

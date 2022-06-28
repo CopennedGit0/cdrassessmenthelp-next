@@ -9,7 +9,7 @@ const Paragraphs = ({ data,align }) => {
         color: "#000000 60%",
         fontFamily: "Barlow",
         fontWeight: "300",
-        fontSize: "18px",
+        fontSize: "20px",
         textAlign:align?"left":"center"
       }}
     >

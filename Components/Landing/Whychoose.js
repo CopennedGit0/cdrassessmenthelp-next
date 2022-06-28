@@ -1,9 +1,40 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { Col, Container, Form, Row,Button } from 'react-bootstrap'
 import Headings from '../Headings'
 import Paragraphs from '../Paragraphs'
+import emailjs from "@emailjs/browser"
+import { useRouter } from 'next/router'
 
 const Whychoose = () => {
+  const form = useRef();
+  const router = useRouter();
+  const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+  const [email, setEmail] = useState("");
+
+  const submitFormhandler = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_by37xbi",
+        "template_2xypi1o",
+        form.current,
+        "user_jMQ6BMrWWCP1zIKhDe4ND"
+      )
+      .then(
+        (result) => {
+          alert("Email sent.");
+          
+          setEmail("");
+          
+          
+        },
+        (error) => {
+          alert("Sorry something went wrong.");
+        }
+      );
+  };
+
   return (
     <div>
         <Container>
@@ -59,18 +90,27 @@ yourself" align='left'/>
 rate. Get your quality CDR report prepared by 
 our experienced writers from various fields of 
 engineering." align="left"/>
-<Form>
-  <Form.Group className="mb-md-3 mb-0" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Leave us your email" />
-    <div className='d-flex justify-content-center justify-content-md-start'>
+<Form 
+ref={form}
+onSubmit={submitFormhandler}
+className=" py-4 ps-md-5 ms-md-5 formContainer">
+<Form.Group className="mb-md-3 mb-1" controlId="email">
+                <Form.Control
+                  type="text"
+                  placeholder="Email"
+                  value={email}
+                  className="inputField"
+                  onChange={(e) => setEmail(e.target.value)}
+                  name="email"
+                />
+                 <div className='d-flex justify-content-center justify-content-md-start'>
     <Button style={{backgroundColor:"#970012", color:"#fff", border:"none",borderRadius:"3px"}} type="submit" className="mt-3">
     Submit
   </Button>
   </div>
-    </Form.Group>
+              </Form.Group>
+   
     </Form>
-
 </div>
     </Col>
 </Row>

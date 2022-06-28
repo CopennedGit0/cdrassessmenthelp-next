@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react'
 import { Col, Container, Row ,Button, Form, FormLabel} from 'react-bootstrap'
-import { useRouter } from "next/router";
 import {useRef} from 'react'
 import PhoneInput from 'react-phone-number-input'
 import Headings from '../Headings';
@@ -13,17 +12,12 @@ import Chatra from "@chatra/chatra";
 const Guarenteed = () => {
   const [active,setActive]=useState("first");
   const form = useRef();
-  const router = useRouter();
   const [fullName,setFullName]=useState("");
   const [phone,setPhone]=useState("");
   const [country,setCountry]=useState("");
   const [email,setEmail]=useState("");
-  const [engineeringDiscipline, setengineeringDiscipline] = useState("");
-  const [requirement, setrequirement] = useState("");
-  const [workExperience, setworkExperience] = useState("");
-  const [attachResume, setattachResume] = useState("");
   const [message, setMessage] = useState("");
-  const [submissionDate, setsubmissionDate] = useState("");
+  
   const submitFormhandler = (e) => {
     e.preventDefault();
 
@@ -69,7 +63,7 @@ CONTACT US
 <Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
-<p style={{color:"##434343",fontWeight:"400",textAlign:'center'}}>Trusted by thousand of Engineers from around the world</p>
+<p style={{color:"##434343",fontWeight:"400",textAlign:'center'}} className="pt-3">Trusted by thousand of Engineers from around the world</p>
              <div className='d-flex justify-content-center' >
               <Button  onClick={()=> setActive("second")} 
                 style={{textAlign:"center",background:"#fff",color:"#373737",border:"none"}}>

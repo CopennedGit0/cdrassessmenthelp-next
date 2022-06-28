@@ -41,6 +41,7 @@ Our team of expert writers are ready to assist you; you are just a
 click away.
       " align="potato"/>
             
+            <div className='py-3'>
 
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
@@ -48,6 +49,8 @@ click away.
 <Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
+</div>
+
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
 
 </Col>

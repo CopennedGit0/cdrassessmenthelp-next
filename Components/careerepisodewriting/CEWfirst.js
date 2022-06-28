@@ -9,7 +9,7 @@ const CEWfirst = () => {
     <div>
 <Container>
     <Row>
-<Col md={6} className='px-4  mt-5'>
+    <Col md={6} className='pe-5  mt-5'>
        <Headings title="Career Episode report 
 writing of Skill assessment 
 should be in the format of EA" align="left"  />   
@@ -18,13 +18,16 @@ episodes for skill assessment. The career episode describes engineering
 experiences the engineer has developed and demonstrated in Stage 1 
 Competency. We provide the best Career episode report writing services 
 for engineers in Australia.' align="left"/>
+<div className='py-3'>
+
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
-<p style={{color:"#434343",fontWeight:"400",textAlign:'center'}}>Trusted by thousand of Engineers from around the world</p>
+</div>
+<p style={{color:"#434343",fontWeight:"400",textAlign:''}} className="pt-2">Trusted by thousand of Engineers from around the world</p>
 </Col>
 
 <Col md={6} className='mt-5'>

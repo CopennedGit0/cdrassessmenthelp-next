@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap'
+import Chatra from '@chatra/chatra'
 
 const CEWsecond = () => {
   return (
@@ -517,7 +518,7 @@ of the entire event and include the following details: </p>
 Professional writers with years of experience are ready to assist you.
 </p>
 <div className='d-flex justify-content-center justify-content-md-center'>
-<Button href="/contact-us" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none",}} className="mb-5 ">
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none",}} className="mb-5 ">
 
 Claim Free Consultation
 </Button>

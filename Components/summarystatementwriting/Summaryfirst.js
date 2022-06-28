@@ -26,7 +26,7 @@ CONTACT US
 <Button onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
-<p style={{color:"#434343",fontWeight:"400",textAlign:'center'}}>Trusted by thousand of Engineers from around the world</p>
+<p style={{color:"#434343",fontWeight:"400",textAlign:'center'}} className="pt-3">Trusted by thousand of Engineers from around the world</p>
 </Col>
 
 <Col md={6} className='mt-5'>
