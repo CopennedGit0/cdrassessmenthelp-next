@@ -5,11 +5,38 @@ import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
 import Chatra from "@chatra/chatra";
+import Script from 'next/script'
 
 
 const Stage1CompetencyAssessment = () => {
   const router = useRouter()
   const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+
+  const  schemaData= {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    name: "CDR Report Writing Services for Engineers Australia",
+    image: "https://cdrskillassessment.com/images/n2.png",
+    description:
+      "We provide personalised CDR reports prepared by CDR experts based on your degree and career.",
+    url: "https://www.cdrassessmenthelp.com/services/stage-1-competency-assessment-australia",
+    brand: {
+      "@type": "Brand",
+      name: "cdrskillassessment",
+      logo: "https://www.cdrassessmenthelp.com/logo.png",
+    },
+    offers: {
+      "@type": "Offer",
+      price: "Negotiable",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: 10,
+      bestRating: 10,
+      worstRating: 7,
+      ratingCount: 20,
+    },
+  }
 
   return (
     <div>
@@ -18,6 +45,9 @@ const Stage1CompetencyAssessment = () => {
         <meta name='description' content="Are you ready to obtain 100 % Approval from Engineers Australia? Top leading service provider Helps you with High-Quality Stage 1 Competency Assessment."/>
         <link rel="canonical" href={canonicalUrl} />
       </Head>
+      <Script type="application/ld+json">
+      {JSON.stringify(schemaData)}
+</Script>
       <Container>
       
       <Row>

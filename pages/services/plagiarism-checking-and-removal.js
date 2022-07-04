@@ -5,6 +5,7 @@ import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
 import Chatra from "@chatra/chatra";
+import Script from 'next/script'
 
 
 const CDRPlagiarismCheckingandRemoval = () => {
@@ -20,6 +21,32 @@ const CDRPlagiarismCheckingandRemoval = () => {
   do not charge just for checking plagiarism.`,alt:`Offer electronic service`},{image:"/images/plag/bg.png",title:`Best guidance`,data:`Professionals with years of experience in plagiarism 
   checking and removing from CDR will guide you to 
   get a positive assessment from Engineers Australia.`,alt:`Best guidance`}]
+  
+  const  schemaData= {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    name: "CDR Report Writing Services for Engineers Australia",
+    image: "https://cdrskillassessment.com/images/n2.png",
+    description:
+      "We provide personalised CDR reports prepared by CDR experts based on your degree and career.",
+    url: "https://www.cdrassessmenthelp.com/services/plagiarism-checking-and-removal",
+    brand: {
+      "@type": "Brand",
+      name: "cdrskillassessment",
+      logo: "https://www.cdrassessmenthelp.com/logo.png",
+    },
+    offers: {
+      "@type": "Offer",
+      price: "Negotiable",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: 10,
+      bestRating: 10,
+      worstRating: 7,
+      ratingCount: 20,
+    },
+  }
   return (
     <div>
        <Head>
@@ -27,6 +54,9 @@ const CDRPlagiarismCheckingandRemoval = () => {
         <meta name='description' content="Want 100 % Approval from EA? our Best CDR Plagiarism Checking & Removal services in Australia save you from CDR Rejected due to plagiarism"/>
         <link rel="canonical" href={canonicalUrl} />
       </Head>
+      <Script type="application/ld+json">
+      {JSON.stringify(schemaData)}
+</Script>
       <Container>
           <Row>
             <Col md={5} className="py-5">

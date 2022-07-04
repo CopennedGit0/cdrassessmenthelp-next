@@ -4,11 +4,25 @@ import Headings from '../Components/Headings'
 import Paragraphs from '../Components/Paragraphs'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import Script from 'next/script'
 
 const Alltestimonials = () => {
     const router=useRouter();
     const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
   
+const schemaData = {
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "CDR report",
+  "image": "",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "bestRating": "5",
+    "worstRating": "0",
+    "ratingCount": "20"
+  }
+}
   const dataList=[{image:`/images/alltestimonials/lucas.png`, data:`Finally got my CDR accepted. Thank you 
   CDRassessmenthellp and team for quality 
   work.`,name:`Lucas Taylor`, short:`LT`}
@@ -87,6 +101,10 @@ const Alltestimonials = () => {
         <meta name="description" content="Testimonials | CDR Assessment Help"/>
         <link rel="canonical" href={canonicalUrl} />
       </Head>
+
+      <Script type="application/ld+json">
+      {JSON.stringify(schemaData)}
+</Script>
         <Container>
 
         <Headings title="Testimonials"/>
